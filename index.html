@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guess Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Number Guess Game</h1>
+    </header>
+    <main>
+      <section id="home-screen">
+        <div class="content">
+          <button id="start-game">Start Game</button>
+        </div>
+      </section>
+      <section id="game-screen" class="hidden">
+        <div class="content">
+          <p id="instructions"></p>
+          <div class="buttons">
+            <button id="next-btn">Next</button>
+            <button id="restart-btn">Restart</button>
+            <button id="quit-btn">Quit</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
+
